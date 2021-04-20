@@ -1,3 +1,40 @@
+text-align: center;
+}
+p {
+    margin: 0 0 1.313em;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+Style Attribute {
+    font-size: 1.4em;
+}
+.cs-ta-center {
+    text-align: center !important;
+}
+.entry-header, .entry-content {
+    font-size: 0.933rem;
+}
+body, input, button, select, textarea {
+    font-family: "Lato",sans-serif;
+}
+body {
+    font-style: normal;
+    font-weight: 400;
+    color: hsl(0,1%,14%);
+    background-color: #f3f3f3;
+}
+body {
+    line-height: 1.7;
+}
 :root {
     --wp-admin-theme-color: #007cba;
     --wp-admin-theme-color-darker-10: #006ba1;
@@ -24,21 +61,8 @@ html {
     font-size: 15px;
 }
 html {
-    overflow-x: hidden;
-}
-html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-}
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-html[Attributes Style] {
-    -webkit-locale: "en-US";
-}
-user agent stylesheet
-html {
-    display: block;
 }
 *, *:before, *:after {
     box-sizing: border-box;
